@@ -1,0 +1,63 @@
+# flyctl launch added from Crow/.gitignore
+Crow/**/darxygen/**
+Crow/**/docs/reference/**
+# Compiled Object files
+Crow/**/*.slo
+Crow/**/*.lo
+Crow/**/*.o
+Crow/**/*.obj
+
+# Compiled Dynamic libraries
+Crow/**/*.so
+Crow/**/*.dylib
+Crow/**/*.dll
+
+# Compiled Static libraries
+Crow/**/*.lai
+Crow/**/*.la
+Crow/**/*.a
+Crow/**/*.lib
+
+# Executables
+Crow/**/*.exe
+Crow/**/*.out
+Crow/**/*.app
+
+Crow/**/example
+Crow/**/unittest
+Crow/**/Testing/*
+Crow/**/include/crow/tags
+
+Crow/**/*.swp
+Crow/**/*.gcov
+
+Crow/**/*.gcda
+Crow/**/*.gcno
+
+Crow/**/build
+
+Crow/**/.directory
+Crow/**/crow_all.h
+
+# conan.io
+Crow/**/build*
+
+#Doxygen
+Crow/**/html
+
+#QT-Creator
+Crow/**/*.config
+Crow/**/*.creator*
+Crow/**/*.cflags
+Crow/**/*.cxxflags
+Crow/**/*.files
+Crow/**/*.includes
+
+#VS-Code
+Crow/**/.vscode
+Crow/**/.idea
+Crow/**/cmake-build-debug
+Crow/**/.cache
+Crow/**/site
+Crow/**/venv
+fly.toml

@@ -9,5 +9,9 @@ include_directories(${CMAKE_SOURCE_DIR}/../Crow/include)
 # Define executable
 add_executable(FinanceTrackerCPP src/main.cpp)
 
-# Link libraries
-target_link_libraries(FinanceTrackerCPP pthread)
+# Find and link dependencies
+find_package(Threads REQUIRED)
+target_link_libraries(FinanceTrackerCPP PRIVATE Threads::Threads)
+
+# Add filesystem library for C++17
+target_link_libraries(FinanceTrackerCPP PRIVATE stdc++fs)

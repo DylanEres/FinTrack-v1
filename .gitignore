@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Fly.io
+.fly/

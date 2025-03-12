@@ -1,12 +1,9 @@
-# fly.toml app configuration file generated for fintrackcpp on 2025-03-10T12:22:03-07:00
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
-app = 'fintrackcpp'
+# fly.toml app configuration file for the combined application
+app = 'fintrack-app'
 primary_region = 'lax'
 
 [build]
+  dockerfile = "Dockerfile"
 
 [http_service]
   internal_port = 8080

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o -o FinanceTrackerCPP  -lpthread 
+/usr/bin/c++ CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o -o FinanceTrackerCPP  -lstdc++fs 

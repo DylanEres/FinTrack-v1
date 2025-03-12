@@ -5,7 +5,7 @@ RUN apt update && apt install -y build-essential cmake libasio-dev
 
 # Copy Crow library, source files, and pre-built frontend
 COPY ../Crow /Crow
-COPY ./src /app/src
+COPY ./backend/src /app/src
 COPY ./CMakeLists.txt /app/CMakeLists.txt
 COPY ./frontend/dist /app/frontend/dist
 

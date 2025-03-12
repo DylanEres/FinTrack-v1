@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(${CMAKE_SOURCE_DIR}/../Crow/include)
 
 # Define executable
-add_executable(FinanceTrackerCPP src/main.cpp)
+add_executable(FinanceTrackerCPP ${CMAKE_SOURCE_DIR}/src/main.cpp)
 
 # Find and link dependencies
 find_package(Threads REQUIRED)

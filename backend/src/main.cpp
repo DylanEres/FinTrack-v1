@@ -258,14 +258,14 @@ response serve_static_file(const request &, string path)
     }
 
     // Build the file path and open the file
-    string file_path = string("./frontend/dist/") + path;
+    string file_path = string("./public/") + path;
     ifstream file(file_path.c_str(), ios::binary);
 
     if (!file.good())
     {
         // File not found, try index.html as fallback
         // This is useful for single-page applications with client-side routing
-        file_path = "./frontend/dist/index.html";
+        file_path = "./public/index.html";
         file = ifstream(file_path.c_str(), ios::binary);
 
         if (!file.good())
@@ -318,7 +318,7 @@ response serve_static_file(const request &, string path)
 response serve_index()
 {
     // Try to open the main index.html file
-    ifstream file("./frontend/dist/index.html", ios::binary);
+    ifstream file("./public/index.html", ios::binary);
     if (!file.good())
     {
         // Frontend files not found, probably not built yet

@@ -69,28 +69,28 @@ include CMakeFiles/FinanceTrackerCPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FinanceTrackerCPP.dir/flags.make
 
-CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o: CMakeFiles/FinanceTrackerCPP.dir/flags.make
-CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o: /home/jblast/dev/FinanceTrackerCPP/src/main.cpp
-CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o: CMakeFiles/FinanceTrackerCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jblast/dev/FinanceTrackerCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o -MF CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o.d -o CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o -c /home/jblast/dev/FinanceTrackerCPP/src/main.cpp
+CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o: CMakeFiles/FinanceTrackerCPP.dir/flags.make
+CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o: /home/jblast/dev/FinanceTrackerCPP/backend/src/main.cpp
+CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o: CMakeFiles/FinanceTrackerCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jblast/dev/FinanceTrackerCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o -MF CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o.d -o CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o -c /home/jblast/dev/FinanceTrackerCPP/backend/src/main.cpp
 
-CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jblast/dev/FinanceTrackerCPP/src/main.cpp > CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.i
+CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jblast/dev/FinanceTrackerCPP/backend/src/main.cpp > CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.i
 
-CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jblast/dev/FinanceTrackerCPP/src/main.cpp -o CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.s
+CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jblast/dev/FinanceTrackerCPP/backend/src/main.cpp -o CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.s
 
 # Object files for target FinanceTrackerCPP
 FinanceTrackerCPP_OBJECTS = \
-"CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o"
+"CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o"
 
 # External object files for target FinanceTrackerCPP
 FinanceTrackerCPP_EXTERNAL_OBJECTS =
 
-FinanceTrackerCPP: CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o
+FinanceTrackerCPP: CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o
 FinanceTrackerCPP: CMakeFiles/FinanceTrackerCPP.dir/build.make
 FinanceTrackerCPP: CMakeFiles/FinanceTrackerCPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jblast/dev/FinanceTrackerCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FinanceTrackerCPP"

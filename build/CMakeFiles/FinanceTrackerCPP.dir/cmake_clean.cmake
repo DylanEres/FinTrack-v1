@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o"
-  "CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o.d"
+  "CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o"
+  "CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o.d"
   "FinanceTrackerCPP"
   "FinanceTrackerCPP.pdb"
 )

@@ -129,29 +129,29 @@ FinanceTrackerCPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/build
 .PHONY : FinanceTrackerCPP/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+backend/src/main.o: backend/src/main.cpp.o
+.PHONY : backend/src/main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+backend/src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.o
+.PHONY : backend/src/main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+backend/src/main.i: backend/src/main.cpp.i
+.PHONY : backend/src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+backend/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.i
+.PHONY : backend/src/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+backend/src/main.s: backend/src/main.cpp.s
+.PHONY : backend/src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+backend/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinanceTrackerCPP.dir/build.make CMakeFiles/FinanceTrackerCPP.dir/backend/src/main.cpp.s
+.PHONY : backend/src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FinanceTrackerCPP"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... backend/src/main.o"
+	@echo "... backend/src/main.i"
+	@echo "... backend/src/main.s"
 .PHONY : help
 
 
